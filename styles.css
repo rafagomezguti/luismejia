@@ -1,0 +1,407 @@
+body {
+    margin: 0;
+    line-height: normal;
+  }
+  
+  :root {
+    /* fonts */
+    --font-nunito: Nunito;
+  
+    /* font sizes */
+    --font-size-lg: 18px;
+    --font-size-5xl: 24px;
+    --font-size-53xl: 72px;
+  
+    /* Colors */
+    --color-darkslategray-100: #484848;
+    --c10: #363636;
+    --color-mediumpurple-100: #a383e9;
+    --color-mediumpurple-200: #7e64b4;
+    --c3: #c5c5c5;
+    --c6: #848484;
+    --c5: #989898;
+    --c8: #5b5b5b;
+    --c1: #ededed;
+  
+    /* Border radiuses */
+    --br-11xs: 2px;
+  }
+  
+
+
+
+
+.footer-child {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #382d50;
+    width: 1440px;
+    height: 149px;
+  }
+  .luis-mejia-todos {
+    position: absolute;
+    top: 62px;
+    left: 574px;
+    
+  }
+  .footer {
+    position: absolute;
+    top: 2916px;
+    left: 0;
+    width: 1440px;
+    height: 149px;
+  }
+  .contacto,
+  .redes-sociales,
+  .whatsapp {
+    position: absolute;
+    text-transform: uppercase;
+  }
+  .contacto {
+    
+    top: 70px;
+    left: 0;
+    font-size: var(--font-size-53xl);
+    display: inline-block;
+    color: var(--c3);
+    width: 442px;
+    height: 146px;
+  }
+  .redes-sociales,
+  .whatsapp {
+    top: 13px;
+    left: 662px;
+    color: var(--c8);
+  }
+  .whatsapp {
+    top: 0;
+    left: 955px;
+    font-size: 43px;
+    display: inline-block;
+    width: 265.2px;
+    height: 43px;
+  }
+  .facebook,
+  .mensaje-directo,
+  .youtube {
+    position: absolute;
+    top: 57px;
+    left: 710px;
+    text-transform: capitalize;
+  }
+  .facebook,
+  .mensaje-directo {
+    top: 118px;
+  }
+  .mensaje-directo {
+    top: 177px;
+    left: 995px;
+  }
+  .youtube-logo-icon {
+    position: absolute;
+    top: 55px;
+    left: 671px;
+    width: 28px;
+    height: 28px;
+    
+  }
+  .facebook-circled-icon,
+  .whatsapp-icon {
+    position: absolute;
+    top: 111px;
+    left: 670px;
+    width: 31px;
+    height: 37px;
+    
+  }
+  .whatsapp-icon {
+    top: 69px;
+    left: 1026px;
+    width: 90px;
+    height: 90px;
+  }
+  .contato {
+    position: absolute;
+    top: 2537px;
+    left: 99px;
+    width: 1220.2px;
+    height: 216px;
+    color: var(--c5);
+  }
+  .experiencia-child {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(180deg, #7e64b4, #221b33);
+    width: 1440px;
+    height: 704px;
+  }
+  .experiencia1 {
+    position: absolute;
+    top: 292px;
+    left: 99px;
+    line-height: 107.76px;
+    text-transform: uppercase;
+    display: inline-block;
+    width: 487px;
+    height: 232px;
+  }
+  .bufete-de-abogados {
+    margin: 0;
+  }
+  .experiencia-texto {
+    position: absolute;
+    top: 43px;
+    left: 657px;
+    font-size: 20px;
+    display: inline-block;
+    width: 690px;
+    height: 560px;
+  }
+  .experiencia {
+    position: absolute;
+    top: 1773px;
+    left: 0;
+    width: 1440px;
+    height: 704px;
+    font-size: var(--font-size-53xl);
+    color: var(--c3);
+  }
+  .construlegal {
+    position: absolute;
+    top: 586px;
+    left: 919px;
+    line-height: 32px;
+    display: inline-block;
+    width: 154px;
+    height: 81px;
+  }
+  .construlegal-logo-icon {
+    position: absolute;
+    top: 232px;
+    left: 829px;
+    width: 334px;
+    height: 334px;
+    object-fit: cover;
+  }
+  .biker {
+    position: absolute;
+    top: 586px;
+    left: 535px;
+    line-height: 32px;
+    display: inline-block;
+    width: 96px;
+    height: 81px;
+  }
+  .biker-logo-icon {
+    position: absolute;
+    top: 232px;
+    left: 416px;
+    width: 334px;
+    height: 334px;
+    object-fit: cover;
+  }
+  .debora {
+    position: absolute;
+    top: 586px;
+    left: 81px;
+    line-height: 32px;
+    display: inline-block;
+    width: 172px;
+    height: 81px;
+  }
+  .debora-logo-icon {
+    position: absolute;
+    top: 232px;
+    left: 0;
+    width: 334px;
+    height: 334px;
+    object-fit: cover;
+  }
+  .proyectos1 {
+    position: absolute;
+    top: 0;
+    left: 367px;
+    font-size: var(--font-size-53xl);
+    line-height: 80px;
+    text-transform: uppercase;
+    display: inline-block;
+    color: var(--c3);
+    width: 439px;
+    height: 98px;
+  }
+  .proyectos {
+    position: absolute;
+    top: 913px;
+    left: 134px;
+    width: 1163px;
+    height: 667px;
+    font-size: var(--font-size-5xl);
+    color: var(--c6);
+  }
+  .imagem-perfil-icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 180px;
+    width: 360px;
+    height: 520px;
+    object-fit: cover;
+  }
+  .deco-child,
+  .deco-item {
+    position: absolute;
+    top: 0;
+    left: 41.5px;
+    border-radius: var(--br-11xs);
+    background-color: var(--color-mediumpurple-200);
+    width: 11.5px;
+    height: 58.7px;
+    transform: rotate(47.9deg);
+    transform-origin: 0 0;
+  }
+  .deco-item {
+    left: 54.4px;
+    background-color: var(--color-mediumpurple-100);
+    transform: rotate(48.3deg);
+  }
+  .deco {
+    position: absolute;
+    top: 73px;
+    left: 491px;
+    width: 62px;
+    height: 50px;
+  }
+  .ilustrador-digital {
+    position: absolute;
+    top: 73px;
+    left: 504px;
+    line-height: 80px;
+  }
+  .luis-mejia {
+    color: var(--color-mediumpurple-200);
+    
+  }
+  .soy-luis-mejia-container {
+    position: absolute;
+    top: 280px;
+    left: 505px;
+    font-size: var(--font-size-5xl);
+    display: inline-block;
+    width: 659px;
+    color: var(--color-darkslategray-100);
+  }
+  .sobremi {
+    
+    position: absolute;
+    top: 211px;
+    left: 137px;
+    width: 1164px;
+    height: 520px;
+    font-size: var(--font-size-53xl);
+    color: #000;
+  }
+  .contacto1 {
+    position: absolute;
+    top: 0;
+    left: 83.59%;
+    line-height: 60px;
+  }
+  .experiencia2 {
+    
+    left: 55.14%;
+    line-height: 60px;
+  }
+  .experiencia2,
+  .menu,
+  .proyectos2 {
+    position: absolute;
+    top: 0;
+  }
+  .proyectos2 {
+    left: 27.13%;
+    line-height: 60px;
+  }
+  .menu {
+    height: 100%;
+    width: 38.86%;
+    right: 0;
+    bottom: 0;
+    left: 61.14%;
+  }
+  .rectanglulo-1,
+  .rectanglulo-2 {
+    position: absolute;
+    height: 117.4%;
+    width: 18.55%;
+    top: 0;
+    right: -6.29%;
+    bottom: -17.4%;
+    left: 87.74%;
+    border-radius: var(--br-11xs);
+    background-color: var(--color-mediumpurple-100);
+    transform: rotate(48.3deg);
+    transform-origin: 0 0;
+  }
+  .rectanglulo-1 {
+    right: 14.52%;
+    left: 66.94%;
+    background-color: var(--color-mediumpurple-200);
+    transform: rotate(47.9deg);
+  }
+  .rectanglulo-2-parent {
+    position: absolute;
+    height: 83.33%;
+    width: 21.83%;
+    top: 8.33%;
+    right: 0;
+    bottom: 8.33%;
+    left: 78.17%;
+  }
+  .luis-meja {
+    top: 0;
+    left: 0;
+    line-height: 60px;
+  }
+  .header,
+  .logo,
+  .luis-meja {
+    position: absolute;
+  }
+  .logo {
+    height: 100%;
+    width: 24.15%;
+    top: 0;
+    right: 75.85%;
+    bottom: 0;
+    left: 0;
+    font-size: 48px;
+  }
+  .header {
+    top: 37px;
+    left: 137px;
+    width: 1176px;
+    height: 60px;
+    color: var(--c10);
+  }
+  .site {
+    margin: auto;
+    width: 100%;
+    position: relative;
+    background-color: #fff;
+    height: 3065px;
+    overflow: hidden;
+    text-align: left;
+    font-size: var(--font-size-lg);
+    color: var(--c1);
+    font-family: var(--font-nunito);
+  }
+  .menu a{
+    text-decoration: none;
+    list-style: none;
+  }
+
+  nav ul{
+    list-style: none;
+  }
